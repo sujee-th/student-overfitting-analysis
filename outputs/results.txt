@@ -1,0 +1,14 @@
+OVERFITTING ANALYSIS
+
+Training Accuracy: 100.00%
+Test Accuracy: 60.00%
+
+Training Loss: 0.0001
+Test Loss: 3.6681
+
+Generalization Gap: 40.00 percentage points
+
+Best Test Loss: 0.6178 (Epoch 6)
+
+Conclusion:
+Yes. The behavior is consistent with overfitting: the model fits the training students much better than unseen students, while test loss rose after its best value as training loss continued to decrease.
