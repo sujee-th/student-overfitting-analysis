@@ -94,6 +94,10 @@ python3 src/train_model.py
 python3 src/evaluate_model.py
 ```
 
+### One-click VS Code run
+
+After installing the requirements once, open the **Run and Debug** panel in VS Code (triangle/play icon on the left). Select **Run Full Assignment** from the drop-down list and press the green ▶ button. The included `.vscode/launch.json` starts `src/run_all.py`, which runs data generation, training, and evaluation in the correct order.
+
 On a standard macOS terminal, the scripts automatically select Matplotlib's non-interactive `Agg` backend so graphs are saved without opening windows. The generated figures and report appear in `outputs/`.
 
 ## 13. Project Structure

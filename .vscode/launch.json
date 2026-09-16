@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Full Assignment",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/run_all.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
