@@ -1,5 +1,7 @@
 # Student Performance Overfitting Analysis
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/sujee-th/student-overfitting-analysis)
+
 ## 1. Problem Statement
 
 An online-learning model performs exceptionally well on training students but much worse on new students. This project implements a simple neural network using training and unseen student data, compares both sets of results, and determines whether the behavior indicates overfitting.
@@ -97,6 +99,10 @@ python3 src/evaluate_model.py
 ### One-click VS Code run
 
 After installing the requirements once, open the **Run and Debug** panel in VS Code (triangle/play icon on the left). Select **Run Full Assignment** from the drop-down list and press the green ▶ button. The included `.vscode/launch.json` starts `src/run_all.py`, which runs data generation, training, and evaluation in the correct order.
+
+### Run in GitHub Codespaces (phone or browser)
+
+Click the **Open in GitHub Codespaces** badge above, sign in, and create a codespace. The included Codespaces configuration automatically installs Python packages during setup. When browser VS Code opens, select **Run Full Assignment** in the **Run and Debug** panel and press ▶. The generated files are available in `outputs/`.
 
 On a standard macOS terminal, the scripts automatically select Matplotlib's non-interactive `Agg` backend so graphs are saved without opening windows. The generated figures and report appear in `outputs/`.
 
